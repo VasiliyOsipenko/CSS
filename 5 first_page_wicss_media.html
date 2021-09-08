@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Страница с CSS</title>
+	<style>
+	   @media printscreen { /* Стиль для отображения в браузере */
+		BODY {
+		 font-family: Arial, Verdana, sans-serif; /* Рубленый шрифт */
+		 font-size: 90%; /* Размер шрифта */
+		 color: #000080; /* Цвет текста */
+		}
+		H1 {
+		 background: #faf0e6; /* Цвет фона */
+		 border: 2px dashed maroon; /* Рамка вокруг заголовка */
+		 color: #a0522d; /* Цвет текста */
+		 padding: 7px; /* Поля вокруг текста */
+		}
+		H2 {
+		 color: #556b2f; /* Цвет текста */
+		 margin: 0; /* Убираем отступы */
+		}
+		P {
+		 margin-top: 0.5em; /* Отступ сверху */
+		}
+	   }
+	   @media print { /* Стиль для печати */
+		BODY {
+		 font-family: Times, 'Times New Roman', serif; /* Шрифт с засечками */
+		}
+		H1, H2, P {
+		 color: black; /* Чёрный цвет текста */
+		}
+	   }
+	  </style>
+ </head>
+ <body>
+    <h1>Шаржирование</h1>
+	<p style="font-size: 120%; font-family: monospace;">
+     Шаржирование — насыщение поверхности материала абразивными (в основном пастообразными) материалами. 
+	 Данное явление используется в лекально-притирочных работах на производстве и при ремонте/восстановлении геометрических размеров преимущественно твердых металлических тел. 
+	 Шаржируемые материалы выполняют роль рабочего тела и по сути являются расходным материалом.
+	<p/>
+ </body>
+ </html>
